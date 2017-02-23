@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00"
+
+    tools:context="com.example.akif.halisaha_adam_bul.MainActivity">
+
+    <TextView
+        android:text="ŞİFRE                  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_sifre"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="KULLANICI ADI "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBottom="@+id/et_Kullaniciadi"
+        android:layout_toLeftOf="@+id/et_Kullaniciadi"
+        android:layout_toStartOf="@+id/et_Kullaniciadi"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et_sifre"
+        android:selectAllOnFocus="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@android:color/background_light"
+        android:textSize="18sp"
+        android:singleLine="false"
+        android:autoText="false"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginTop="69dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:text="ŞİFRENİZİ UNUTTUYSANIZ TIKLAYINIZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/btn_girisyap"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:text="ŞİFREMİ UNUTTUM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/btn_sifremiunuttum"
+        android:layout_below="@+id/textView5"
+        android:layout_alignRight="@+id/btn_girisyap"
+        android:layout_alignEnd="@+id/btn_girisyap" />
+
+    <TextView
+        android:text="ÜYE DEĞİLSENİZ KAYIT OLMAK İÇİN TIKLAYINIZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/btn_sifremiunuttum"
+        android:layout_alignRight="@+id/btn_sifremiunuttum"
+        android:layout_alignEnd="@+id/btn_sifremiunuttum"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="KAYIT OL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kayitol"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/btn_girisyap"
+        android:layout_alignStart="@+id/btn_girisyap"
+        android:layout_marginTop="19dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et_Kullaniciadi"
+        android:singleLine="false"
+        android:selectAllOnFocus="false"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="GİRİŞ YAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_girisyap"
+        android:layout_below="@+id/et_sifre"
+        android:layout_alignRight="@+id/et_sifre"
+        android:layout_alignEnd="@+id/et_sifre" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/aa"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

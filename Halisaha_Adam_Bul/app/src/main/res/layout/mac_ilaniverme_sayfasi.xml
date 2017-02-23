@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/macilanver"
+        android:id="@+id/imageView5"
+        android:layout_weight="1"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text="Ekstra aradığınız  özellikleri yazabilirsiniz"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignBottom="@+id/et_ekstraozellik"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <Button
+        android:text="İlan Ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ilanverme_ilanver"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        style="@android:style/Widget.Button"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/et_ekstraozellik"
+        android:layout_alignStart="@+id/et_ekstraozellik" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_ekstraozellik"
+        android:background="@android:color/background_light"
+        android:layout_above="@+id/btn_ilanverme_ilanver"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="45dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:ems="10"
+        android:id="@+id/et_ilanver_halisaha"
+        android:singleLine="false"
+        android:background="@android:color/background_light"
+        android:inputType="textPostalAddress"
+        android:selectAllOnFocus="false"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_ekstraozellik"
+        android:layout_alignLeft="@+id/et_ekstraozellik"
+        android:layout_alignStart="@+id/et_ekstraozellik"
+        android:layout_marginBottom="27dp" />
+
+    <TextView
+        android:text="HALI SAHANIN ADI :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignTop="@+id/et_ilanver_halisaha"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28" />
+
+    <TextView
+        android:text="Kayıt olurken kullandığınız İl ve İlçenize göre İlan Otomatik Verilecektir"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView29"
+        android:layout_marginTop="13dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignRight="@+id/et_ilanver_halisaha"
+        android:layout_alignEnd="@+id/et_ilanver_halisaha" />
+
+    <TextView
+        android:text="Maç Saat Kaçta :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/textView29"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_ilanver_saat"
+        android:background="@android:color/background_light"
+        android:layout_width="150dp"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29" />
+
+</RelativeLayout>

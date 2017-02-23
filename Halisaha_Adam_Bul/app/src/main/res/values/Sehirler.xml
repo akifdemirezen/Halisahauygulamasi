@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sehirdizi">
+        <item>İstanbul</item>
+        <item>Ankara</item>
+        <item>İzmir</item>
+
+    </string-array>
+
+</resources>

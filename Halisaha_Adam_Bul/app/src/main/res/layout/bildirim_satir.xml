@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Kimden :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_above="@+id/teext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_kimden"
+        android:layout_weight="0"
+        android:text="Akif Demirezen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Maç var "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/teext"
+        android:layout_alignLeft="@+id/txt_kimden"
+        android:layout_alignStart="@+id/txt_kimden"
+        android:id="@+id/txt_mesaj"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teext"
+        android:layout_weight="0"
+        android:text="Mesaj"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:paddingLeft="5dp"
+        tools:layout_below="@+id/txt_kimden"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/txt_kimden"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20" />
+
+    <TextView
+        android:text="Telefonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView33"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_above="@+id/txt_mesaj"
+        android:layout_alignLeft="@+id/teext"
+        android:layout_alignStart="@+id/teext" />
+
+    <TextView
+        android:text="0556565"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_telefon"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/textView33"
+        android:layout_alignBottom="@+id/textView33"
+        android:layout_alignLeft="@+id/txt_kimden"
+        android:layout_alignStart="@+id/txt_kimden" />
+
+</RelativeLayout>

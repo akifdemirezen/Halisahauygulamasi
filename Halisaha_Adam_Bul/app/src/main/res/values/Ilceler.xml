@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="istanbulilcedizi">
+        <item>Arnavutköy</item>
+        <item>Ataşehir</item>
+        <item>Bağcılar</item>
+        <item>Bahçelievler</item>
+        <item>Bakırköy</item>
+        <item>Başakşehir</item>
+        <item>Bayrampaşa</item>
+        <item>Beşiktaş</item>
+        <item>Beykoz</item>
+        <item>Beylikduzu</item>
+        <item>Beyoğlu</item>
+        <item>Çamlıca</item>
+        <item>Çatalca</item>
+        <item>Çekmeköy</item>
+        <item>Esenler</item>
+        <item>Esenyurt</item>
+        <item>Eyüp</item>
+        <item>Fatih</item>
+        <item>Gaziosmanpaşa</item>
+        <item>Güngören</item>
+        <item>Kadıköy</item>
+        <item>Kağıthane</item>
+        <item>Kartal</item>
+        <item>Küçükçekmece</item>
+        <item>Maltepe</item>
+        <item>Mecidiyeköy</item>
+        <item>Pendik</item>
+        <item>Sancaktepe</item>
+        <item>Sarıyer</item>
+        <item>Silivri</item>
+        <item>Sultanbeyli</item>
+        <item>Sultangazi</item>
+        <item>Şile</item>
+        <item>Şişli</item>
+        <item>Tuzla</item>
+        <item>Ümraniye</item>
+        <item>Üsküdar</item>
+        <item>Zeytinburnu</item>
+    </string-array>
+
+    <string-array name="ankarailcedizi">
+        <item>Akyurt</item>
+        <item>Altındağ</item>
+        <item>Ayaş</item>
+        <item>Balâ</item>
+        <item>Beypazarı</item>
+        <item>Çamlıdere</item>
+        <item>Çankaya</item>
+        <item>Çubuk</item>
+        <item>Elmadağ</item>
+        <item>Etimesgut</item>
+        <item>Evren</item>
+        <item>Güdül</item>
+        <item>Haymana</item>
+        <item>Kalecik</item>
+        <item>Şişli</item>
+        <item>Kazan</item>
+        <item>Keçiören</item>
+        <item>Kızılcahamam</item>
+        <item>Mamak</item>
+        <item>Nallıhan</item>
+        <item>Polatlı</item>
+        <item>Pursaklar</item>
+        <item>Sincan</item>
+        <item>Sultanbeyli</item>
+        <item>Sultangazi</item>
+        <item>Şereflikoçhisar</item>
+        <item>Yenimahalle</item>
+
+    </string-array>
+
+
+    <string-array name="izmirilcedizi">
+        <item>Aliağa</item>
+        <item>Balçova</item>
+        <item>Bayındır</item>
+        <item>Bayraklı</item>
+        <item>Bergama</item>
+        <item>Beydağ</item>
+        <item>Bornova</item>
+        <item>Buca</item>
+        <item>Çeşme</item>
+        <item>Çiğli</item>
+        <item>Evren</item>
+        <item>Dikili</item>
+        <item>Foça</item>
+        <item>Kalecik</item>
+        <item>Gaziemir</item>
+        <item>Güzelbahçe</item>
+        <item>Karabağlar</item>
+        <item>Karaburun</item>
+        <item>Karşıyaka</item>
+        <item>Kemalpaşa</item>
+        <item>Kınık</item>
+        <item>Kiraz</item>
+        <item>Konak</item>
+        <item>Menderes</item>
+        <item>Menemen</item>
+        <item>Narlıdere</item>
+        <item>Ödemiş</item>
+        <item>Seferihisar</item>
+        <item>Selçuk</item>
+        <item>Tire</item>
+        <item>Torbalı</item>
+        <item>Urla</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

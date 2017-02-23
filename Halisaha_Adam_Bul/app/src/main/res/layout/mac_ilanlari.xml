@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/macilanlari"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView4"
+        android:adjustViewBounds="true" />
+
+    <Button
+        android:text="Ana sayfaya dön"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:id="@+id/btn_macilanlari_anasayfa"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Maç  ilanı ver       "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_macilanlari_ilanver"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="10dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ilan_isim"
+        android:layout_alignLeft="@+id/txt_ilan_isim"
+        android:layout_alignStart="@+id/txt_ilan_isim"
+        android:layout_marginTop="18dp"
+        android:id="@+id/txt_ilan_il"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="İsim :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/txt_ilan_isim"
+        android:layout_alignBottom="@+id/txt_ilan_isim"
+        android:layout_alignLeft="@+id/btn_macilanlari_anasayfa"
+        android:layout_alignStart="@+id/btn_macilanlari_anasayfa" />
+
+    <TextView
+        android:text="İl :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_ilan_il"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:id="@+id/textView17"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_ilan_ilce"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/txt_ilan_il"
+        android:layout_alignBottom="@+id/txt_ilan_il"
+        android:layout_alignRight="@+id/btn_macilanlari_ilanver"
+        android:layout_alignEnd="@+id/btn_macilanlari_ilanver" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/txt_ilan_isim"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/btn_macilanlari_anasayfa"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:text="İlçe :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/txt_ilan_ilce"
+        android:layout_alignBottom="@+id/txt_ilan_ilce"
+        android:layout_alignLeft="@+id/btn_macilanlari_ilanver"
+        android:layout_alignStart="@+id/btn_macilanlari_ilanver" />
+
+    <TextView
+        android:text="TEL:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_ilan_tel"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:id="@+id/textView30"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="aciklama :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_ilan_aciklama"
+        android:layout_alignLeft="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:id="@+id/textView31"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_ilan_aciklama"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn_macilanlari_anasayfa"
+        android:layout_toEndOf="@+id/btn_macilanlari_anasayfa" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_ilan_soyisim"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/txt_ilan_isim"
+        android:layout_alignBottom="@+id/txt_ilan_isim"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_ilan_tel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_above="@+id/textView31"
+        android:layout_alignLeft="@+id/txt_ilan_il"
+        android:layout_alignStart="@+id/txt_ilan_il"
+        android:layout_marginBottom="13dp" />
+
+</RelativeLayout>

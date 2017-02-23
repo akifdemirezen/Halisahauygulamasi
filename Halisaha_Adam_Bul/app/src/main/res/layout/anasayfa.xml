@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/anasayfa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="true" />
+
+    <Button
+        android:text="Maç Bul"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_anasayfa_macbul"
+        android:layout_width="wrap_content"
+        style="@android:style/Widget.Button"
+        android:elevation="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/btn_anasayfa_macilaniver"
+        android:layout_alignLeft="@+id/btn_anasayfa_macilaniver"
+        android:layout_alignStart="@+id/btn_anasayfa_macilaniver"
+        android:layout_marginTop="34dp"
+        android:layout_alignRight="@+id/btn_anasayfa_macilaniver"
+        android:layout_alignEnd="@+id/btn_anasayfa_macilaniver" />
+
+    <Button
+        android:text="Bildirimler"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_anasayfa_bildirimler"
+        android:layout_width="wrap_content"
+        style="@android:style/Widget.Button"
+        android:elevation="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/btn_anasayfa_macbul"
+        android:layout_alignLeft="@+id/btn_anasayfa_macbul"
+        android:layout_alignStart="@+id/btn_anasayfa_macbul"
+        android:layout_alignRight="@+id/btn_anasayfa_macbul"
+        android:layout_alignEnd="@+id/btn_anasayfa_macbul" />
+
+    <Button
+        android:text="Profilim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/btn_anasayfa_profilim"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        style="@android:style/Widget.Button"
+        android:layout_below="@+id/btn_anasayfa_bildirimler"
+        android:layout_alignLeft="@+id/btn_anasayfa_bildirimler"
+        android:layout_alignStart="@+id/btn_anasayfa_bildirimler"
+        android:layout_alignRight="@+id/btn_anasayfa_bildirimler"
+        android:layout_alignEnd="@+id/btn_anasayfa_bildirimler" />
+
+    <Button
+        android:text="Maç İlanı Ver"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/btn_anasayfa_macilaniver"
+        android:layout_width="wrap_content"
+        style="@android:style/Widget.Button"
+        android:elevation="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

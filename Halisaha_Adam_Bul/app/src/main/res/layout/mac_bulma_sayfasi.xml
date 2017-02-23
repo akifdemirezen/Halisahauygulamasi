@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/macbul"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView6"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text="il ve ilçe bilgilerini girin ve o bölgedeki tüm maç ilanlarını görün"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="İL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:text="İLÇE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_macbul_ilce"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_width="200dp"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_macbul_il"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_alignLeft="@+id/spn_macbul_ilce"
+        android:layout_alignStart="@+id/spn_macbul_ilce" />
+
+    <Button
+        android:text="İlanları Göster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/btn_macbul_ilangoster"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@+id/spn_macbul_ilce"
+        android:layout_alignRight="@+id/spn_macbul_ilce"
+        android:layout_alignEnd="@+id/spn_macbul_ilce" />
+
+    <Button
+        android:text="Ana Sayfaya Dön"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/btn_macbulma_anasayfadon" />
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CC00">
+
+    <Button
+        android:text="Kaydı Tamamla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Kayit_Kayditamamla"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/et_Kayit_Yas"
+        android:layout_alignEnd="@+id/et_Kayit_Yas"
+        android:layout_marginBottom="42dp" />
+
+    <TextView
+        android:text="İlçe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBottom="@+id/sp_Kayit_ilceler"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_Kayit_ilceler"
+        android:drawSelectorOnTop="true"
+        android:backgroundTint="@android:color/black"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/et_Kayit_telefon"
+        android:layout_alignRight="@+id/et_Kayit_telefon"
+        android:layout_alignEnd="@+id/et_Kayit_telefon"
+        android:layout_alignLeft="@+id/et_Kayit_telefon"
+        android:layout_alignStart="@+id/et_Kayit_telefon" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_Kayit_telefon"
+        android:background="@android:color/background_light"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignLeft="@+id/et_Kayit_Sifre"
+        android:layout_alignStart="@+id/et_Kayit_Sifre" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_Kayit_sehirler"
+        android:backgroundTint="@android:color/black"
+        android:elevation="1dp"
+        android:contextClickable="false"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/et_Kayit_Sifre"
+        android:layout_alignEnd="@+id/et_Kayit_Sifre"
+        android:layout_alignLeft="@+id/et_Kayit_Sifre"
+        android:layout_alignStart="@+id/et_Kayit_Sifre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_Kayit_Soyisim"
+        android:background="@android:color/background_light"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/sp_Kayit_sehirler"
+        android:layout_alignStart="@+id/sp_Kayit_sehirler" />
+
+    <TextView
+        android:text="SOY İSİM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/sp_Kayit_sehirler"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_Kayit_isim"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/et_Kayit_Sifre"
+        android:layout_alignLeft="@+id/et_Kayit_Sifre"
+        android:layout_alignStart="@+id/et_Kayit_Sifre"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="TELEFON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/textView12"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_Kayit_Yas"
+        android:background="@android:color/background_light"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/btn_Kayit_Kayditamamla"
+        android:layout_alignLeft="@+id/et_Kayit_telefon"
+        android:layout_alignStart="@+id/et_Kayit_telefon" />
+
+    <TextView
+        android:text="YAŞ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignTop="@+id/et_Kayit_Yas"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <TextView
+        android:text="ŞEHİR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/sp_Kayit_ilceler"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="İSİM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+
+        android:layout_alignBottom="@+id/et_Kayit_isim"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:text="KULLANICI ADI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/et_Kayit_Sifre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et_Kayit_Sifre"
+        android:background="@android:color/background_light"
+        android:inputType="textPassword"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_Kayit_kullaniciadi"
+        android:background="@android:color/background_light"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/et_Kayit_Sifre"
+        android:layout_alignStart="@+id/et_Kayit_Sifre" />
+
+    <TextView
+        android:text="ŞİFRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/et_Kayit_Soyisim"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/aa"
+        android:id="@+id/imageView3"
+        android:cropToPadding="false"
+        android:minHeight="88dp"
+        android:nestedScrollingEnabled="false"
+        android:layout_above="@+id/et_Kayit_kullaniciadi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
